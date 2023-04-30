@@ -30,7 +30,8 @@
                 android:text=""
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                android:scrollHorizontally="true"/>
+                android:scrollHorizontally="true"
+                />
         </HorizontalScrollView>
         <!--        android:inputType="text|textNoSuggestions"-->
     </LinearLayout>

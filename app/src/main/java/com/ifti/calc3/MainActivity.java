@@ -332,8 +332,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String text = entry.getText().toString();
 
-                if (text.isEmpty()) {
-                    text = "×";
+                if (!text.isEmpty()) {
+                    text = text + "×";
                 }
                 text = text + "√(";
                 entry.setText(text);
@@ -457,10 +457,10 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
 
-                    equation = makeMultiplication(equation);
-                    equation = makeMultiplication2(equation);
-
-                    System.out.println(equation);
+//                    equation = makeMultiplication(equation);
+//                    equation = makeMultiplication2(equation);
+//
+//                    System.out.println(equation);
 
                     equation = replaceBracket(equation, "sin", "san");
                     equation = replaceBracket(equation, "cos", "cas");
@@ -473,7 +473,7 @@ public class MainActivity extends AppCompatActivity {
                     equation = equation.replaceAll("cas", "Math.cos((Math.PI/180)*");
                     equation = equation.replaceAll("ton", "Math.tan((Math.PI/180)*");
                     equation = equation.replaceAll("log", "Math.log10");
-                    equation = equation.replaceAll("√", "*√");
+//                    equation = equation.replaceAll("√", "*√");
                     equation = equation.replaceAll("√", "Math.sqrt");
                     equation = equation.replaceAll("%", "*(1/100)");
                     equation = equation.replaceAll("]", ")");
