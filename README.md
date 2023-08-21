@@ -31,3 +31,11 @@ The delete button can delete a character at a time. The AC button clears the inp
 ## Demonstration
 
 <p align="center"><img src="Calculator.gif" alt="drawing" width="20%"/></p>
+
+## Usage
+
+You can clone the repo and open it with Android Studio to run the app.
+
+```
+git clone https://github.com/sajidifti/Android_Calculator
+```
