@@ -36,6 +36,6 @@ The delete button can delete a character at a time. The AC button clears the inp
 
 You can clone the repo and open it with Android Studio to run the app.
 
-```
+```bash
 git clone https://github.com/sajidifti/Android_Calculator
 ```
