@@ -22,8 +22,12 @@ The app can store up to 10 previous calculations history. It stores both the inp
 
 ### 5. Equation Validation
 
-The app validates equations before calculation. It provides useful feedback to the user as Toasts.
+The app validates equations before calculation. It provides helpful feedback to the user as Toasts.
 
 ### 6. Delete and All Clear (AC) Buttons
 
-The delete button can delete a character at a time. The AC button clears the input as well as the output field and stores the input-output pair as the newest history.
+The delete button can delete a character at a time. The AC button clears the input and output fields and stores the input-output pair as the newest history.
+
+## Demonstration
+
+<p align="center"><img src="Calculator.gif" alt="drawing" width="100%"/></p>
